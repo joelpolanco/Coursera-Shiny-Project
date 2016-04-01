@@ -38,14 +38,14 @@ move slider along axis to display single bar, guess mu and associated MSE
 
 The ui.R code captures User input for different types of workouts as numeric values.
 
-#shinyUI(pageWithSidebar(  
-#  headerPanel("Example plot"),  
-#  sidebarPanel(    
-#    sliderInput('mu', 'Guess at the mu',value = 70, min = 60, max = 80, step = 0.05,)  ), 
-#  mainPanel(    
-#    plotOutput('myHist')  
-#  )
-#))
+shinyUI(pageWithSidebar(  
+  headerPanel("Example plot"),  
+  sidebarPanel(    
+    sliderInput('mu', 'Guess at the mu',value = 70, min = 60, max = 80, step = 0.05,)  ), 
+  mainPanel(    
+    plotOutput('myHist')  
+  )
+))
 
 
 --- .class #id 
