@@ -11,13 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
-
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
-
---- .class #id 
+--- 
 
 ## Background
 
@@ -25,14 +19,14 @@ Selected a CRM Analytics Example that looks at CD Sales Data in 1997
 Code Pre-processes data in global.R file
 The app represents the distribution of sales amounts and allows the user to explore mean sales values
 
---- .class #id 
+--- 
 
 ## App Instructions
 
 goto: https://joelpolanco.shinyapps.io/Project/
 move slider along axis to display single bar, guess mu and associated MSE
 
---- .class #id 
+--- 
 
 ## Code Example
 
@@ -48,7 +42,7 @@ shinyUI(pageWithSidebar(
 ))
 
 
---- .class #id 
+--- 
 
 ## Reference
 
